@@ -1,0 +1,558 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    min-width: 320px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 400;
+    color: #6a7079;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Ubuntu";
+    font-size: 22px;
+    font-weight: 400;
+    color: #828689;
+}
+
+p {
+    font-family: "Ubuntu";
+    font-size: 17px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.header {
+    background: url('../img/header_bg.jpg') center center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.header .title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+
+.header .title h1 {
+    font-family: "Montserrat";
+    font-size: 31px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.header .title p {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.reg {
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background: #7ea4e8;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.header .title .dis {
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background: #6a7079;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.maingoals {
+    margin-top: 105px;
+    margin-bottom: 120px;
+}
+
+.maingoals h2 {
+    margin-bottom: 25px;
+}
+
+.maingoals h3 {
+    margin-bottom: 20px;
+}
+
+.maingoals .tab-pane p {
+    color: #999999;
+}
+
+.maingoals .tab-pane ul li {
+    font-family: "Ubuntu";
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 36px;
+}
+
+.maingoals .tab-pane ul {
+    list-style: none;
+}
+
+.maingoals .tab-pane ul li {
+    position: relative;
+}
+
+.maingoals .tab-pane ul li:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    font-family: FontAwesome;
+    content: "\f058";
+    color: #2cc7c1;
+}
+
+.maingoals .tab-pane {
+    padding: 30px 20px;
+}
+
+.maingoals .pic {
+	background: url('../img/tab_img2.png') no-repeat center center;
+	min-height: 120px;
+}
+
+.maingoals .pic2 {
+	background: url('../img/tab_img.png') no-repeat center center;
+	min-height: 120px;
+}
+
+.maingoals .nav-link.active {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 700;
+    color: #9097a1;
+    text-transform: uppercase;
+    background: white;
+   
+}
+
+.maingoals .nav-link {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 700;
+    color: #abb1ba;
+    text-transform: uppercase;
+    
+    background-color: #ececec;
+   
+}
+
+.maingoals .nav-link:hover {
+    color: #9097a1;
+}
+
+
+.maingoals .nav-item {
+    margin-bottom: -4px;
+    width: 50%;
+}
+
+.maingoals .tabs {
+    padding: 0;
+    border: 3px solid #ececec;
+    border-radius: 0.25rem;
+}
+
+.speakers {
+    padding-bottom: 90px;
+    border-bottom: 8px solid #f0f0f1;
+}
+
+.speakers .circle .fa {
+    font-size: 40px;
+    line-height: 140px;
+    color: transparent;
+}
+
+.speakers .circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+	background: #cdd0d2;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+
+.speakers h4 {
+    color: #777a7d;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.speakers .circle:hover .fa {
+    color: white;
+}
+
+.speakers .circle:hover  {
+	background: #6bd8d3;
+}
+.speakers .circle:hover + h4 {
+    color: #6bd8d3
+}
+
+
+.speakers .col-lg-3 {
+	margin-bottom: 70px;
+}
+.speakers .col-lg-3 p {
+	font-size: 16px;
+}
+.speakers p {
+	margin-bottom: 0;
+}
+.speakers .col-6 h3 {
+	margin-bottom: 25px;
+}
+.schedule {
+    padding-top: 120px;
+}
+.schedule .scheduletext {
+    padding-right: 83px;
+}
+.schedule .scheduletext h2 {
+    margin-bottom: 28px;
+}
+.schedule .scheduletext h3 {
+    margin-bottom: 22px;
+}
+.schedule .scheduletext p {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.schedule .scheduletext a {
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2cc7c1;
+}
+.schedule .fa {
+    color: #2cc7c1;
+}
+.schedule .tab-pane {
+    padding: 25px 20px;
+}
+.schedule .nav-link.active {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 700;
+    color: #9097a1;
+    text-transform: uppercase;
+    background: white;
+   
+}
+
+.schedule .nav-link {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 700;
+    color: #abb1ba;
+    text-transform: uppercase;
+    padding-right: 28px;
+    padding-left: 28px;
+    background-color: #ececec;
+   
+}
+
+.schedule .nav-link:hover {
+    color: #9097a1;
+}
+
+
+
+.schedule .nav {
+    background-color: #ececec;
+}
+
+.schedule .tabs {
+    padding: 0;
+    border: 3px solid #ececec;
+    border-radius: 0.25rem;
+}
+.schedule .time {
+    font-family: "Ubuntu";
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    background: #2cc7c1;
+    text-align: center;
+    border-radius: 3px;
+    padding: 3px 0;
+}
+.schedule .tab-pane p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.schedule .tab-pane .bottom-row {
+    margin-top: 20px;
+}
+.schedule .tab-pane h5 {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 600;
+    color: #747a84;
+}
+.video {
+    padding-top: 125px;
+}
+.videotext {
+    padding-left: 83px;
+}
+.videotext h2 {
+    margin-bottom: 26px;
+}
+.videotext h3 {
+    margin-bottom: 20px;
+}
+.videotext p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.videotext a {
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2cc7c1;
+}
+.video iframe {
+    border-radius: 5px;
+}
+.gallery {
+    padding-top: 135px;
+    padding-bottom: 142px;
+}
+.gallery .videotext {
+    padding-left: 15px; 
+    padding-right: 83px;
+}
+.gallery .carousel img {
+    height: 315px;
+}
+.gallery .carousel .carousel-inner {
+    border-radius: 5px;
+}
+.gallery .carousel-indicators {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: left;
+    bottom: 2px;
+    left: 15px;
+}
+.gallery .carousel-indicators li {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 3px solid #65d2ce;
+    background: transparent;
+}
+.gallery .carousel-indicators li.active {
+    background: #65d2ce;
+}
+.launch {
+    padding-top: 145px;
+    padding-bottom: 155px;
+    background: #f3f3f3;
+}
+.launch .form-control {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 18px;
+    color: #6a7079;
+    background: #efefef;
+    border: none;
+    height: 48px;
+    
+    
+}
+.launch .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+.launch .form-control:focus {
+    box-shadow: 0 0 0 0.2rem #95e3e0;
+}
+
+.launch .reg {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.launch h2 {
+    margin-bottom: 22px;
+}
+.launch h3 {
+    margin-bottom: 55px;
+}
+.launch .userform {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    background: #ffffff;
+    padding-left: 37px;
+}
+.sponsor {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.map {
+    background: url("../img/map.jpg") center center;
+    background-size: cover;
+    height: 670px;
+}
+.footer {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: #525b64;
+    color: #fff;    
+}
+.footer h3 {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer h5 {
+    color: #2cc7c1;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer .fa {
+    margin-right: 10px;
+}
+.footer span {
+    font-weight: 600;
+    color: #2cc7c1;
+}
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #cdd0d2;
+}
+.footer img {
+    margin-right: 20px;
+}
+.footer .help {
+    padding-left: 80px;
+}
+.footer .touch {
+    padding-left: 75px;
+}
+.copyright {
+    background: #3f464c;
+}
+.copyright p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #cacaca;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+@media(max-width: 1199px) {
+    .launch .userform {
+        padding-left: 15px;
+    }
+    .footer h5 {
+        font-size: 16px;
+    } 
+    .footer .fa {
+        margin-right: 0;
+    }
+}
+@media(max-width: 991px) {
+    .schedule .scheduletext {
+        margin-bottom: 40px;
+        padding-right: 15px;
+}
+.video .videotext {
+    padding-left: 15px;
+    margin-top: 40px;
+}
+.gallery .videotext {
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+.launch .form-input {
+    margin-bottom: 30px;
+}
+.launch .reg {
+    width: 100%;
+}
+.footer .help {
+    padding-left: 15px;
+}
+.footer .touch {
+    padding-left: 15px;
+}
+.footer .people {
+    margin-bottom: 40px;
+}
+}
+
+@media(max-width: 767px) {
+    .sponsor .sponsorlist {
+        justify-content: center !important;
+    }
+    .sponsor .sponsorlist img {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 575px) {
+    .header .title h1 {
+        font-size: 20px;
+    }
+    .header .title p {
+        font-size: 12px;
+    }
+    .header .title .reg {
+        margin-right: 0;
+    }
+    .header .title .dis {
+        margin-right: 0;
+    }
+    .header .title {
+        top: 10%;
+    }
+    .schedule .nav-link {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer .footer1 {
+        justify-content: center;
+        text-align: center;
+}
+}
